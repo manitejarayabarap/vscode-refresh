@@ -9,7 +9,7 @@ frequency = scope.query("MEASURE:FREQUENCY?")
 error_status = scope.query("SYSTEM:ERROR?")
 
 print(f"Scope is {idn}")
-print(f"Measured DC Voltage: {voltage} V")
+print(f"Measured DC Voltage: {voltage} V (nominal range: 3.15–3.45V)")
 print(f"Measured DC Current: {current} A")
 print(f"Measured Frequency: {frequency} Hz")
 print(f"System Error Status: {error_status}")
