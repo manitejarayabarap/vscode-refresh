@@ -13,3 +13,5 @@ print(f"Measured DC Voltage: {voltage} V")
 print(f"Measured DC Current: {current} A")
 print(f"Measured Frequency: {frequency} Hz")
 print(f"System Error Status: {error_status}")
+
+print("--- Experimental diagnostic run complete ---")
