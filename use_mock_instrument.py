@@ -8,6 +8,9 @@ current = scope.query("MEASURE:CURRENT:DC?")
 frequency = scope.query("MEASURE:FREQUENCY?")
 error_status = scope.query("SYSTEM:ERROR?")
 
+if error_status != '0,"No error"':
+    print(f"WARNING: Instrument reported an error: {error_status}")
+
 print(f"Scope is {idn}")
 print(f"Measured DC Voltage: {voltage} V")
 print(f"Measured DC Current: {current} A")
