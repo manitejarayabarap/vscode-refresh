@@ -11,6 +11,8 @@ error_status = scope.query("SYSTEM:ERROR?")
 if error_status != '0,"No error"':
     print(f"WARNING: Instrument reported an error: {error_status}")
 
+print("Error status check completed.")
+
 print(f"Scope is {idn}")
 print(f"Measured DC Voltage: {voltage} V")
 print(f"Measured DC Current: {current} A")
