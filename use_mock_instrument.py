@@ -1,3 +1,5 @@
+# Main stable version — verified working baseline
+
 from mock_instrument import MockScope
 
 scope = MockScope()
