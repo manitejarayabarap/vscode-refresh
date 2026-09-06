@@ -1,3 +1,5 @@
+# Simulates a real oscilloscope for practicing PyVISA-style code safely
+
 import random
 
 class MockScope:
