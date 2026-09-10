@@ -22,3 +22,5 @@ print(f"Measured DC Voltage: {voltage} V (nominal range: 3.15–3.45V)")
 print(f"Measured DC Current: {current} A (typical range: 0.48-0.56A)")
 print(f"Measured Frequency: {frequency} Hz")
 print(f"System Error Status: {error_status}")
+
+print("--- Experimental diagnostic run complete ---")
