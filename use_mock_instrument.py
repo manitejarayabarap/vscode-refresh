@@ -24,3 +24,5 @@ print(f"Measured Frequency: {frequency} Hz [BRANCH A version]")
 print(f"System Error Status: {error_status}")
 
 print("--- Experimental diagnostic run complete ---")
+
+print(f"--- Summary: V={voltage}, I={current}, Freq={frequency}, Error={error_status} ---")
